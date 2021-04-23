@@ -6,12 +6,44 @@ package com.myspace.githook_1;
 
 public class Applicant implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Applicant() {
-    }
+	private java.lang.Integer age;
+	private java.lang.String name;
+	private java.lang.String address;
 
+	public Applicant() {
+	}
 
+	public java.lang.Integer getAge() {
+		return this.age;
+	}
 
+	public void setAge(java.lang.Integer age) {
+		this.age = age;
+	}
+
+	public java.lang.String getName() {
+		return this.name;
+	}
+
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public java.lang.String getAddress() {
+		return this.address;
+	}
+
+	public void setAddress(java.lang.String address) {
+		this.address = address;
+	}
+
+	public Applicant(java.lang.Integer age, java.lang.String name,
+			java.lang.String address) {
+		this.age = age;
+		this.name = name;
+		this.address = address;
+	}
 
 }
