@@ -10,6 +10,8 @@ public class AnotherAssets implements java.io.Serializable {
 
 	private java.lang.String name;
 
+	private java.lang.String status;
+
 	public AnotherAssets() {
 	}
 
@@ -21,8 +23,17 @@ public class AnotherAssets implements java.io.Serializable {
 		this.name = name;
 	}
 
-	public AnotherAssets(java.lang.String name) {
+	public java.lang.String getStatus() {
+		return this.status;
+	}
+
+	public void setStatus(java.lang.String status) {
+		this.status = status;
+	}
+
+	public AnotherAssets(java.lang.String name, java.lang.String status) {
 		this.name = name;
+		this.status = status;
 	}
 
 }
