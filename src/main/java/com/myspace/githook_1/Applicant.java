@@ -11,6 +11,18 @@ public class Applicant implements java.io.Serializable {
 	private java.lang.Integer age;
 	private java.lang.String name;
 	private java.lang.String address;
+	private java lang String address2;
+	
+	
+	
+
+	public String getAddress2() {
+		return address2;
+	}
+
+	public void setAddress2(String address2) {
+		this.address2 = address2;
+	}
 
 	public Applicant() {
 	}
@@ -40,10 +52,11 @@ public class Applicant implements java.io.Serializable {
 	}
 
 	public Applicant(java.lang.Integer age, java.lang.String name,
-			java.lang.String address) {
+			java.lang.String address, java.lang.String address2) {
 		this.age = age;
 		this.name = name;
 		this.address = address;
+		this.address2 = address2;
 	}
 
 }
