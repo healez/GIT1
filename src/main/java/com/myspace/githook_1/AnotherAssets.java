@@ -6,12 +6,23 @@ package com.myspace.githook_1;
 
 public class AnotherAssets implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public AnotherAssets() {
-    }
+	private java.lang.String name;
 
+	public AnotherAssets() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public AnotherAssets(java.lang.String name) {
+		this.name = name;
+	}
 
 }
