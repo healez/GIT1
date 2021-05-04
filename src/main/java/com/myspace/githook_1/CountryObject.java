@@ -6,12 +6,34 @@ package com.myspace.githook_1;
 
 public class CountryObject implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CountryObject() {
-    }
+	private java.lang.String countryName;
+	private java.lang.String countryCode;
 
+	public CountryObject() {
+	}
 
+	public java.lang.String getCountryName() {
+		return this.countryName;
+	}
 
+	public void setCountryName(java.lang.String countryName) {
+		this.countryName = countryName;
+	}
+
+	public java.lang.String getCountryCode() {
+		return this.countryCode;
+	}
+
+	public void setCountryCode(java.lang.String countryCode) {
+		this.countryCode = countryCode;
+	}
+
+	public CountryObject(java.lang.String countryName,
+			java.lang.String countryCode) {
+		this.countryName = countryName;
+		this.countryCode = countryCode;
+	}
 
 }
