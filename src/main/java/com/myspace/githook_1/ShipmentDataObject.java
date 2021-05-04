@@ -22,7 +22,7 @@ public class ShipmentDataObject implements java.io.Serializable {
 	}
 
 	public void setCountryNotes(java.lang.String countryNotes) {
-		countryNotes) = countryNotes) 
+		this.countryNotes = countryNotes ;
 	}
 
 
