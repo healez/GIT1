@@ -11,12 +11,10 @@ public class ShipmentDataObject implements java.io.Serializable {
 	private java.lang.String countryCode;
 	private java.lang.String countryName;
 
-
+	private java.lang.String countryNotes;
 
 	public ShipmentDataObject() {
 	}
-
-
 
 	public java.lang.String getCountryCode() {
 		return this.countryCode;
@@ -34,10 +32,19 @@ public class ShipmentDataObject implements java.io.Serializable {
 		this.countryName = countryName;
 	}
 
+	public java.lang.String getCountryNotes() {
+		return this.countryNotes;
+	}
+
+	public void setCountryNotes(java.lang.String countryNotes) {
+		this.countryNotes = countryNotes;
+	}
+
 	public ShipmentDataObject(java.lang.String countryCode,
-			java.lang.String countryName) {
+			java.lang.String countryName, java.lang.String countryNotes) {
 		this.countryCode = countryCode;
 		this.countryName = countryName;
+		this.countryNotes = countryNotes;
 	}
 
 }
