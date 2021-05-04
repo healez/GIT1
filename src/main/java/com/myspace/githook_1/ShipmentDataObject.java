@@ -6,12 +6,34 @@ package com.myspace.githook_1;
 
 public class ShipmentDataObject implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public ShipmentDataObject() {
-    }
+	private java.lang.String countryCode;
+	private java.lang.String countryName;
 
+	public ShipmentDataObject() {
+	}
 
+	public java.lang.String getCountryCode() {
+		return this.countryCode;
+	}
 
+	public void setCountryCode(java.lang.String countryCode) {
+		this.countryCode = countryCode;
+	}
+
+	public java.lang.String getCountryName() {
+		return this.countryName;
+	}
+
+	public void setCountryName(java.lang.String countryName) {
+		this.countryName = countryName;
+	}
+
+	public ShipmentDataObject(java.lang.String countryCode,
+			java.lang.String countryName) {
+		this.countryCode = countryCode;
+		this.countryName = countryName;
+	}
 
 }
