@@ -6,12 +6,23 @@ package com.myspace.githook_1;
 
 public class Try implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Try() {
-    }
+	private java.lang.String name;
 
+	public Try() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public Try(java.lang.String name) {
+		this.name = name;
+	}
 
 }
