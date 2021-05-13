@@ -30,13 +30,6 @@ public class ShipmentDataObject implements java.io.Serializable {
 	}
 
 	public ShipmentDataObject(java.lang.String countryCode,
-			java.lang.String countryName, java.lang.String countryName) {
-		this.countryCode = countryCode;
-		this.countryName = countryName;
-		this.countryNotes = countryNotes;
-	}
-
-	public ShipmentDataObject(java.lang.String countryCode,
 			java.lang.String countryNotes) {
 		this.countryCode = countryCode;
 		this.countryNotes = countryNotes;
