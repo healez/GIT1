@@ -11,8 +11,6 @@ public class ShipmentDataObject implements java.io.Serializable {
 	private java.lang.String countryName;
 	private java.lang.String countryNotes;
 
-	private java.lang.String countryId;
-
 	public ShipmentDataObject() {
 	}
 
@@ -45,23 +43,6 @@ public class ShipmentDataObject implements java.io.Serializable {
 		this.countryCode = countryCode;
 		this.countryName = countryName;
 		this.countryNotes = countryNotes;
-	}
-
-	public java.lang.String getCountryId() {
-		return this.countryId;
-	}
-
-	public void setCountryId(java.lang.String countryId) {
-		this.countryId = countryId;
-	}
-
-	public ShipmentDataObject(java.lang.String countryCode,
-			java.lang.String countryName, java.lang.String countryNotes,
-			java.lang.String countryId) {
-		this.countryCode = countryCode;
-		this.countryName = countryName;
-		this.countryNotes = countryNotes;
-		this.countryId = countryId;
 	}
 
 }
