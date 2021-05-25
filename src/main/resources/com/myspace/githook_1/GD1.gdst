@@ -1,5 +1,6 @@
 <decision-table52>
   <tableName>GD1</tableName>
+  <parentName></parentName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>50</width>
@@ -12,7 +13,13 @@
     <hideColumn>true</hideColumn>
     <width>150</width>
   </ruleNameColumn>
-  <metadataCols/>
+  <metadataCols>
+    <metadata-column52>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <metadata>requestedBy</metadata>
+    </metadata-column52>
+  </metadataCols>
   <attributeCols/>
   <conditionPatterns>
     <Pattern52>
@@ -125,6 +132,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>MY</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -154,6 +166,11 @@
       </value>
       <value>
         <valueString>Philippines</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
