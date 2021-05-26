@@ -15,7 +15,7 @@
   </ruleNameColumn>
   <metadataCols>
     <metadata-column52>
-      <hideColumn>false</hideColumn>
+      <hideColumn>true</hideColumn>
       <width>100</width>
       <metadata>requestedBy</metadata>
     </metadata-column52>
