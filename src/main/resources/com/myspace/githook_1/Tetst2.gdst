@@ -246,7 +246,7 @@
   <imports>
     <imports/>
   </imports>
-  <packageName>com.myspace.fre_rule_test_3</packageName>
+  <packageName>com.myspace.githook_1</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>
@@ -313,12 +313,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1990-11-05</valueString>
+        <valueString>1001002</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1990-12-05</valueString>
+        <valueString>1001002</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
