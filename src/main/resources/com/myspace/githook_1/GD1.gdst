@@ -49,6 +49,7 @@
     <attribute-column52>
       <typedDefaultValue>
         <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -61,6 +62,7 @@
     <attribute-column52>
       <typedDefaultValue>
         <valueDate>2021-06-04 05:31:08.324 UTC</valueDate>
+        <valueString></valueString>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -73,6 +75,7 @@
     <attribute-column52>
       <typedDefaultValue>
         <valueDate>2021-12-30 16:00:00.0 UTC</valueDate>
+        <valueString></valueString>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -85,6 +88,7 @@
     <attribute-column52>
       <typedDefaultValue>
         <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -629,16 +633,17 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>test2</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -674,21 +679,25 @@
       </value>
       <value>
         <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
         <valueDate>2021-06-04 05:31:08.324 UTC</valueDate>
+        <valueString></valueString>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
         <valueDate>2021-12-30 16:00:00.0 UTC</valueDate>
+        <valueString></valueString>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
         <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -733,42 +742,42 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>dp001</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>EUR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Samsung</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Apple</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>EU</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>vat001</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Ind1.N</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>ShippingPartyTypesEnum.ARCO</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
