@@ -288,7 +288,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Green</valueString>
+        <valueString>Green,Yellow</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -408,7 +408,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Red</valueString>
+        <valueString>Red,Blue</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -468,7 +468,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Red</valueString>
+        <valueString>Red,Yellow</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
