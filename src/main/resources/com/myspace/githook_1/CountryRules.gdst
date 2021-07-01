@@ -139,7 +139,7 @@
       <header>Print</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(shp)</text>
+          <text>System.out.println(shp.getCountryCode() + &quot;  &quot;  + shp.getCountryName())</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
