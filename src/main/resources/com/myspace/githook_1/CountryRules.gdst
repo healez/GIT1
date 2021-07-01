@@ -74,7 +74,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>countryColor</factField>
           <fieldType>String</fieldType>
-          <operator>==</operator>
+          <operator>in</operator>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -228,7 +228,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Green</valueString>
+        <valueString>Green,Red</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
