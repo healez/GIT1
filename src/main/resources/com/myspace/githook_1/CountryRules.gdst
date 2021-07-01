@@ -131,7 +131,7 @@
       <boundName>ctry</boundName>
       <factField>notes</factField>
       <type>String</type>
-      <isInsertLogical>true</isInsertLogical>
+      <isInsertLogical>false</isInsertLogical>
     </insert-fact-column52>
   </actionCols>
   <auditLog>
