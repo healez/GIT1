@@ -12,6 +12,8 @@ public class ShipmentDataObject implements java.io.Serializable {
 
 	private java.lang.String countryName;
 
+	private java.lang.String countryColor;
+
 	public ShipmentDataObject() {
 	}
 
@@ -39,11 +41,21 @@ public class ShipmentDataObject implements java.io.Serializable {
 		this.countryName = countryName;
 	}
 
+	public java.lang.String getCountryColor() {
+		return this.countryColor;
+	}
+
+	public void setCountryColor(java.lang.String countryColor) {
+		this.countryColor = countryColor;
+	}
+
 	public ShipmentDataObject(java.lang.String countryCode,
-			java.lang.String countryNotes, java.lang.String countryName) {
+			java.lang.String countryNotes, java.lang.String countryName,
+			java.lang.String countryColor) {
 		this.countryCode = countryCode;
 		this.countryNotes = countryNotes;
 		this.countryName = countryName;
+		this.countryColor = countryColor;
 	}
 
 }
