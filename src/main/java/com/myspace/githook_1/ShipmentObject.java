@@ -8,6 +8,12 @@ public class ShipmentObject implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
+	@Override
+	public String toString() {
+		return "ShipmentObject [countryCode=" + countryCode + ", countryName=" + countryName + ", countryColor="
+				+ countryColor + ", countryNumber=" + countryNumber + ", countryNotes=" + countryNotes + "]";
+	}
+
 	private java.lang.String countryCode;
 	private java.lang.String countryName;
 	private java.lang.String countryColor;
