@@ -145,7 +145,6 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <typedDefaultValue>
-            <valueBoolean>true</valueBoolean>
             <valueString></valueString>
             <dataType>BOOLEAN</dataType>
             <isOtherwise>false</isOtherwise>
