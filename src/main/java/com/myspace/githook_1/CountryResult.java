@@ -6,12 +6,23 @@ package com.myspace.githook_1;
 
 public class CountryResult implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CountryResult() {
-    }
+	private java.lang.String notes;
 
+	public CountryResult() {
+	}
 
+	public java.lang.String getNotes() {
+		return this.notes;
+	}
 
+	public void setNotes(java.lang.String notes) {
+		this.notes = notes;
+	}
+
+	public CountryResult(java.lang.String notes) {
+		this.notes = notes;
+	}
 
 }
