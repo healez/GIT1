@@ -25,4 +25,11 @@ public class CountryResult implements java.io.Serializable {
 		this.notes = notes;
 	}
 
+	@Override
+	public String toString() {
+		return "CountryResult [notes=" + notes + "]";
+	}
+	
+	
+
 }
