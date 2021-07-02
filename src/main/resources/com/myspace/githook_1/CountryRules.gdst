@@ -1,5 +1,6 @@
 <decision-table52>
   <tableName>CountryRules</tableName>
+  <parentName></parentName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>50</width>
@@ -94,22 +95,6 @@
           <parameters/>
           <binding></binding>
         </condition-column52>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Country Number</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>countryNumber</factField>
-          <fieldType>String</fieldType>
-          <operator>==</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
       </conditions>
       <window>
         <parameters/>
@@ -134,22 +119,25 @@
       <isInsertLogical>false</isInsertLogical>
     </insert-fact-column52>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
-      <hideColumn>false</hideColumn>
+      <hideColumn>true</hideColumn>
       <width>-1</width>
       <header>Print</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(shp.toString())</text>
+          <text>TryLog tlog = new TryLog();
+tlog.setMessage( &quot;countryCode=&quot; + shp.getCountryCode() + &quot;|countryName= &quot;+ shp.getCountryName + &quot;|countryColor= &quot;+ shp.getCountryColor()+ &quot;|countryNumber=&quot;+ shp.getCountryNumber );   
+insert(tlog);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <typedDefaultValue>
+            <valueBoolean>true</valueBoolean>
             <valueString></valueString>
             <dataType>BOOLEAN</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
-          <hideColumn>false</hideColumn>
+          <hideColumn>true</hideColumn>
           <width>100</width>
           <header>Print</header>
           <varName></varName>
@@ -237,11 +225,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>1 Green Mexico</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -293,11 +276,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -357,11 +335,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Mexico</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -413,11 +386,6 @@
       </value>
       <value>
         <valueString>Philippines</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -477,11 +445,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>No Red Philppines</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -533,11 +496,6 @@
       </value>
       <value>
         <valueString>Philippines</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
