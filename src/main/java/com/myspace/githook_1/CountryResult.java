@@ -8,28 +8,26 @@ public class CountryResult implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.String notes;
+	private java.lang.String message;
 
 	public CountryResult() {
-	}
-
-	public java.lang.String getNotes() {
-		return this.notes;
-	}
-
-	public void setNotes(java.lang.String notes) {
-		this.notes = notes;
-	}
-
-	public CountryResult(java.lang.String notes) {
-		this.notes = notes;
 	}
 
 	@Override
 	public String toString() {
 		return "CountryResult [notes=" + notes + "]";
 	}
-	
-	
+
+	public java.lang.String getMessage() {
+		return this.message;
+	}
+
+	public void setMessage(java.lang.String message) {
+		this.message = message;
+	}
+
+	public CountryResult(java.lang.String message) {
+		this.message = message;
+	}
 
 }
