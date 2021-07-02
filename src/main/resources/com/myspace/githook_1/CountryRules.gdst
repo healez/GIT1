@@ -103,21 +103,6 @@
     </Pattern52>
   </conditionPatterns>
   <actionCols>
-    <insert-fact-column52>
-      <typedDefaultValue>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>100</width>
-      <header>CountryNotes</header>
-      <factType>CountryResult</factType>
-      <boundName>ctry</boundName>
-      <factField>notes</factField>
-      <type>String</type>
-      <isInsertLogical>false</isInsertLogical>
-    </insert-fact-column52>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>true</hideColumn>
       <width>-1</width>
@@ -225,11 +210,6 @@ insert(tlog);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1 Green Mexico</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -280,11 +260,6 @@ insert(tlog);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>No  Green Mexico</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -326,11 +301,6 @@ insert(tlog);</text>
       </value>
       <value>
         <valueString>Red</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Mexico</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -390,11 +360,6 @@ insert(tlog);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1 Red Philippines</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -445,11 +410,6 @@ insert(tlog);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>No Red Philppines</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -491,11 +451,6 @@ insert(tlog);</text>
       </value>
       <value>
         <valueString>Green</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Philippines</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
