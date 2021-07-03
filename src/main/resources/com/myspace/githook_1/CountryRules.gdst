@@ -43,8 +43,8 @@
   </attributeCols>
   <conditionPatterns>
     <Pattern52>
-      <factType>ShipmentObject</factType>
-      <boundName>shp</boundName>
+      <factType>ShipmentObjectInterface</factType>
+      <boundName>shpi</boundName>
       <isNegated>false</isNegated>
       <conditions>
         <condition-column52>
@@ -90,6 +90,22 @@
           <header>Country Name</header>
           <constraintValueType>1</constraintValueType>
           <factField>countryName</factField>
+          <fieldType>String</fieldType>
+          <operator>==</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Country Number</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>countryNumber</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
@@ -230,6 +246,11 @@ System.out.println(kcontext.getClassName().getName());</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -276,6 +297,11 @@ System.out.println(kcontext.getClassName().getName());</text>
       </value>
       <value>
         <valueString>Green,Yellow</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -340,6 +366,11 @@ System.out.println(kcontext.getClassName().getName());</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -395,6 +426,11 @@ System.out.println(kcontext.getClassName().getName());</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -441,6 +477,11 @@ System.out.println(kcontext.getClassName().getName());</text>
       </value>
       <value>
         <valueString>Red,Yellow</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -501,6 +542,11 @@ System.out.println(kcontext.getClassName().getName());</text>
       </value>
       <value>
         <valueString>Philippines</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
