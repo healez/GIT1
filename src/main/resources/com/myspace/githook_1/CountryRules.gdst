@@ -117,6 +117,35 @@
       </window>
       <entryPointName></entryPointName>
     </Pattern52>
+    <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>LoggingInvocation</header>
+      <constraintValueType>1</constraintValueType>
+      <parameters/>
+      <definition>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>new Helper().setRuleContext(kcontext);</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
+      </definition>
+      <childColumns>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+          <typedDefaultValue>
+            <valueBoolean>true</valueBoolean>
+            <valueString></valueString>
+            <dataType>BOOLEAN</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>LoggingInvocation</header>
+          <constraintValueType>1</constraintValueType>
+          <fieldType>Boolean</fieldType>
+          <parameters/>
+          <varName></varName>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+      </childColumns>
+    </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
   </conditionPatterns>
   <actionCols>
     <insert-fact-column52>
@@ -143,7 +172,7 @@
           <text>TryLog tlog = new TryLog();
 tlog.setMessage( &quot;countryCode=&quot; + shpi.getCountryCode() + &quot;|countryName= &quot;+ shpi.getCountryName + &quot;|countryColor= &quot;+ shpi.getCountryColor()+ &quot;|countryNumber=&quot;+ shpi.getCountryNumber );   
 insert(tlog);
-LoggingInvocationHandler logInv = new  LoggingInvocationHandler();  logInv.setRuleContext(kcontext.getKieRuntime());
+
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
@@ -248,6 +277,12 @@ LoggingInvocationHandler logInv = new  LoggingInvocationHandler();  logInv.setRu
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Output1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -305,6 +340,12 @@ LoggingInvocationHandler logInv = new  LoggingInvocationHandler();  logInv.setRu
       <value>
         <valueString>1</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -368,6 +409,12 @@ LoggingInvocationHandler logInv = new  LoggingInvocationHandler();  logInv.setRu
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Output3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -425,6 +472,12 @@ LoggingInvocationHandler logInv = new  LoggingInvocationHandler();  logInv.setRu
       <value>
         <valueString>1</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -488,6 +541,12 @@ LoggingInvocationHandler logInv = new  LoggingInvocationHandler();  logInv.setRu
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Output5</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -545,6 +604,12 @@ LoggingInvocationHandler logInv = new  LoggingInvocationHandler();  logInv.setRu
       <value>
         <valueString>2</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
