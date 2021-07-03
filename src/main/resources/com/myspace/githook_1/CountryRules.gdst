@@ -125,7 +125,7 @@
       <parameters/>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>$lgivh : LoggingInvocationHandler();</text>
+          <text>lgivh : LoggingInvocationHandler();</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
@@ -198,7 +198,7 @@ insert(tlog);
       <header>RuleContext</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>$lgivh.setRuleContext( kcontext );</text>
+          <text>lgivh.setRuleContext( kcontext );</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
