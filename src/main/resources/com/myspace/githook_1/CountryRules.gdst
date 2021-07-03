@@ -312,7 +312,7 @@ insert(tlog);
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Green,Yellow</valueString>
+        <valueString>Black,Yellow</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
