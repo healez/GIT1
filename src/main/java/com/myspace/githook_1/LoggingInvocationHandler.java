@@ -98,15 +98,13 @@ public class LoggingInvocationHandler implements InvocationHandler {
 		// ruleContext.getMatch().getRule().
 	}
 
-	private LoggingInvocationHandler(KieRuntime kieruntime) {
-		super();
+	LoggingInvocationHandler() {
+	}
+
+	private void setRuleContext(KieRuntime kieruntime) {
 		System.out.println("KieRunTime:" + kieruntime);
 		this.runtime = kieruntime;
 		logEntryList = (List<String>) kieruntime
 				.getGlobal(logEntryListGlobalName);
-
-	}
-
-	public LoggingInvocationHandler() {
 	}
 }
