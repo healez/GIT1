@@ -21,6 +21,11 @@ public class TryLog implements java.io.Serializable {
 		this.message = message;
 	}
 
+	@Override
+	public String toString() {
+		return "[" + message + "]";
+	}
+
 	public TryLog(java.lang.String message) {
 		this.message = message;
 	}
