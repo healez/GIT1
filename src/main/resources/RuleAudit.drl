@@ -1,0 +1,13 @@
+rule "insertCtx"
+	salience 9999
+when
+	$lgivh : LoggingInvocationHandler();
+then
+	System.out.println ( "kContext:" + kcontext );
+	System.out.println ( "lgivh:" + $lgivh );
+	System.out.println ( "kContext:" + kcontext.getClass().getName() );
+
+	// gkContext = kcontext;
+	$lgivh.setRuleContext( kcontext );
+	// kcontext.setGlobal("gkContext", kcontext );
+end
