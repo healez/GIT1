@@ -130,9 +130,7 @@ tlog.setMessage( &quot;countryCode=&quot; + shpi.getCountryCode() + &quot;|count
 insert(tlog);
 
 LoggingInvocationHandler logInv = new  LoggingInvocationHandler();
-logInv.setRuleContext(kcontext);
-System.out.println(kcontext);
-System.out.println(kcontext.getClassName().getName());</text>
+logInv.setRuleContext(kcontext);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
