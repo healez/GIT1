@@ -13,7 +13,13 @@
     <hideColumn>true</hideColumn>
     <width>150</width>
   </ruleNameColumn>
-  <metadataCols/>
+  <metadataCols>
+    <metadata-column52>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <metadata>RuleId</metadata>
+    </metadata-column52>
+  </metadataCols>
   <attributeCols>
     <attribute-column52>
       <typedDefaultValue>
@@ -231,6 +237,11 @@ insert(tlog);
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>Rule1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueNumeric class="int">100</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
@@ -292,6 +303,11 @@ insert(tlog);
       </value>
       <value>
         <valueString>MX - Green</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Rule2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -361,6 +377,11 @@ insert(tlog);
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>Rule3</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueNumeric class="int">1</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
@@ -422,6 +443,11 @@ insert(tlog);
       </value>
       <value>
         <valueString>PH - Red  -1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Rule4</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -491,6 +517,11 @@ insert(tlog);
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>Rule5</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueNumeric class="int">1</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
@@ -552,6 +583,11 @@ insert(tlog);
       </value>
       <value>
         <valueString>PH-Green</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Rule6</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
