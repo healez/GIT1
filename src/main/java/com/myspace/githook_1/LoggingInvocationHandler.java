@@ -12,7 +12,7 @@ public class LoggingInvocationHandler implements InvocationHandler {
 		logEntryListGlobalName = _logEntryListGlobalName;
 
 		methods = null;
-		ruleContext = null;
+		runtime = null;
 		logEntryList = null;
 
 		if (methods == null) {
@@ -79,7 +79,7 @@ public class LoggingInvocationHandler implements InvocationHandler {
 				// le.setId(( idGetter != null )? getter.invoke(orig, noArgs
 				// ).toString() : "NO-ID");
 
-				if (ruleContext != null) {
+				if (runtime != null) {
 					setRuleData(le);
 				}
 
@@ -98,12 +98,13 @@ public class LoggingInvocationHandler implements InvocationHandler {
 		// ruleContext.getMatch().getRule().
 	}
 
-	@SuppressWarnings("unused")
-	private LoggingInvocationHandler(RuleContext _ruleContext) {
-		System.out.println("RuleContext:" + _ruleContext);
-		this.ruleContext = _ruleContext;
-		logEntryList = (List<String>) ruleContext.getKieRuntime().getGlobal(
-				logEntryListGlobalName);
+	private LoggingInvocationHandler(KieRuntime kieruntime) {
+		super();
+		System.out.println("KieRunTime:" + kieruntime);
+		this.runtime = kieruntime;
+		logEntryList = (List<String>) kieruntime
+				.getGlobal(logEntryListGlobalName);
+
 	}
 
 	public LoggingInvocationHandler() {
