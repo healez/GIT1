@@ -110,8 +110,13 @@
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>TryLog tlog = new TryLog();
-tlog.setMessage( &quot;countryCode=&quot; + shp.getCountryCode() + &quot;|countryName= &quot;+ shp.getCountryName + &quot;|countryColor= &quot;+ shp.getCountryColor()+ &quot;|countryNumber=&quot;+ shp.getCountryNumber );   
-insert(tlog);</text>
+tlog.setMessage( &amp;quot;countryCode=&amp;quot; + shp.getCountryCode() + &amp;quot;|countryName= &amp;quot;+ shp.getCountryName + &amp;quot;|countryColor= &amp;quot;+ shp.getCountryColor()+ &amp;quot;|countryNumber=&amp;quot;+ shp.getCountryNumber );   
+insert(tlog);
+
+LoggingInvocationHandler logInv = new  LoggingInvocationHandler();
+logInv.setRuleContext(kcontext);
+System.out.println(kcontext);
+System.out.println(kcontext.getClassName().getName());</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
