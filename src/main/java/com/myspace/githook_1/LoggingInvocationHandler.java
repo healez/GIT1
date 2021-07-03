@@ -98,7 +98,14 @@ public class LoggingInvocationHandler implements InvocationHandler {
 		// ruleContext.getMatch().getRule().
 	}
 
-	private LoggingInvocationHandler() {
+	@SuppressWarnings("unused")
+	private LoggingInvocationHandler(RuleContext _ruleContext) {
+		System.out.println("RuleContext:" + _ruleContext);
+		this.ruleContext = _ruleContext;
+		logEntryList = (List<String>) ruleContext.getKieRuntime().getGlobal(
+				logEntryListGlobalName);
+	}
 
+	public LoggingInvocationHandler() {
 	}
 }
