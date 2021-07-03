@@ -6,12 +6,23 @@ package com.myspace.githook_1;
 
 public class TryLog implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public TryLog() {
-    }
+	private java.lang.String message;
 
+	public TryLog() {
+	}
 
+	public java.lang.String getMessage() {
+		return this.message;
+	}
 
+	public void setMessage(java.lang.String message) {
+		this.message = message;
+	}
+
+	public TryLog(java.lang.String message) {
+		this.message = message;
+	}
 
 }
