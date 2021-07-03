@@ -143,8 +143,7 @@
           <text>TryLog tlog = new TryLog();
 tlog.setMessage( &quot;countryCode=&quot; + shpi.getCountryCode() + &quot;|countryName= &quot;+ shpi.getCountryName + &quot;|countryColor= &quot;+ shpi.getCountryColor()+ &quot;|countryNumber=&quot;+ shpi.getCountryNumber );   
 insert(tlog);
-LoggingInvocationHandler logInv = new  LoggingInvocationHandler();
-logInv.setRuleContext(kcontext);  
+LoggingInvocationHandler logInv = new  LoggingInvocationHandler(kcontext);
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
