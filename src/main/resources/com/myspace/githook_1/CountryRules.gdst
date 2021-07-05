@@ -104,7 +104,7 @@
       <boundName>shp</boundName>
       <factField>countryColor</factField>
       <type>String</type>
-      <update>true</update>
+      <update>false</update>
     </set-field-col52>
     <insert-fact-column52>
       <typedDefaultValue>
