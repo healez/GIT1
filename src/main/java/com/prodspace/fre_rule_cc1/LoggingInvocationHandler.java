@@ -6,12 +6,9 @@ package com.prodspace.fre_rule_cc1;
 
 public class LoggingInvocationHandler implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public LoggingInvocationHandler() {
-    }
-
-
-
+	public LoggingInvocationHandler() {
+	}
 
 }
