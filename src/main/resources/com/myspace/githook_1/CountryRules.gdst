@@ -197,7 +197,7 @@ insert(tlog);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Rule1</valueString>
+        <valueString>Rul3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
