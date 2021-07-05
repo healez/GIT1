@@ -219,7 +219,7 @@ insert(tlog);
       <header>RuleContext</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>log.setRuleContext(kcontext);</text>
+          <text>	System.out.println ( &quot;kContext:&quot; + kcontext );   log.setRuleContext(kcontext);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
