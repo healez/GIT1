@@ -8,7 +8,42 @@ public class AuditDataChange implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
+	private java.lang.String oldData;
+	private java.lang.String property;
+	private java.lang.String newData;
+
 	public AuditDataChange() {
+	}
+
+	public java.lang.String getOldData() {
+		return this.oldData;
+	}
+
+	public void setOldData(java.lang.String oldData) {
+		this.oldData = oldData;
+	}
+
+	public java.lang.String getProperty() {
+		return this.property;
+	}
+
+	public void setProperty(java.lang.String property) {
+		this.property = property;
+	}
+
+	public java.lang.String getNewData() {
+		return this.newData;
+	}
+
+	public void setNewData(java.lang.String newData) {
+		this.newData = newData;
+	}
+
+	public AuditDataChange(java.lang.String oldData, java.lang.String property,
+			java.lang.String newData) {
+		this.oldData = oldData;
+		this.property = property;
+		this.newData = newData;
 	}
 
 }
