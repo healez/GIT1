@@ -46,18 +46,6 @@
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
     </attribute-column52>
-    <attribute-column52>
-      <typedDefaultValue>
-        <valueString>test</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>100</width>
-      <attribute>ruleflow-group</attribute>
-      <reverseOrder>false</reverseOrder>
-      <useRowNumber>false</useRowNumber>
-    </attribute-column52>
   </attributeCols>
   <conditionPatterns>
     <Pattern52>
@@ -340,11 +328,6 @@ insert(tlog);
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -403,11 +386,6 @@ insert(tlog);
       </value>
       <value>
         <valueString>CountryRule</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -494,11 +472,6 @@ insert(tlog);
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>MX</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -577,11 +550,6 @@ insert(tlog);
       </value>
       <value>
         <valueString>CountryRule</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -668,11 +636,6 @@ insert(tlog);
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>PH</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -755,11 +718,6 @@ insert(tlog);
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>PH</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -838,11 +796,6 @@ insert(tlog);
       </value>
       <value>
         <valueString>CountryRule</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
