@@ -106,6 +106,21 @@
       <type>String</type>
       <update>true</update>
     </set-field-col52>
+    <insert-fact-column52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Country Notes</header>
+      <factType>CountryResult</factType>
+      <boundName>ctry</boundName>
+      <factField>notes</factField>
+      <type>String</type>
+      <isInsertLogical>false</isInsertLogical>
+    </insert-fact-column52>
   </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
