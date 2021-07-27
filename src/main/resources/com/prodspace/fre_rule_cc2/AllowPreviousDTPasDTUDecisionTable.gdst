@@ -800,7 +800,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -915,7 +915,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>DTP</valueString>
+        <valueString>DAA1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
