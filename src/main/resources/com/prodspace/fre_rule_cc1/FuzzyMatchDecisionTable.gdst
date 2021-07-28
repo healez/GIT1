@@ -897,7 +897,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.760 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.673 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -907,7 +907,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.760 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.673 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1094,7 +1094,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.760 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.673 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1104,7 +1104,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.760 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.673 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1291,7 +1291,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.761 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.674 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1488,7 +1488,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.761 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.674 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1685,7 +1685,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.762 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.675 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1882,7 +1882,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.762 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.675 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2079,7 +2079,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.763 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.675 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2286,7 +2286,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.763 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.676 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2473,7 +2473,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.763 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.676 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2483,7 +2483,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueDate>2021-07-28 08:01:19.763 UTC</valueDate>
+        <valueDate>2021-07-28 08:04:24.677 UTC</valueDate>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2524,6 +2524,203 @@
       </value>
       <value>
         <valueString>Ind1.Y</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>ShippingPartyTypesEnum.IMPR</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">10</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>AP,,EU,,,AP,,,0,0,0,0,0,0,20100105,20210105</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>ap,eu,ap,0,0,0,0,0,0,20100105,20210105</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueDate>2021-05-31 16:00:00.0 UTC</valueDate>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueDate>2021-12-30 16:00:00.0 UTC</valueDate>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">8502</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>FuzzyMatchAGrp</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>FuzzyMatchRGroup</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>EU</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>AP</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueDate>2010-01-04 16:00:00.0 UTC</valueDate>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueDate>2021-07-28 08:04:24.677 UTC</valueDate>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueDate>2021-01-04 16:00:00.0 UTC</valueDate>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueDate>2021-06-29 16:00:00.0 UTC</valueDate>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>AP</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Ind1.N</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
