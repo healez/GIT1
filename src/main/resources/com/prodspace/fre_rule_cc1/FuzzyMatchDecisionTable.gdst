@@ -4757,7 +4757,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>test</valueString>
+        <valueString>tests</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
